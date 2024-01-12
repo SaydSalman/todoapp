@@ -26,10 +26,10 @@ const App = () => {
   const completedTodos = todos.filter((todo) => todo.completed);
 
   return (
-    <div className='main container-fluid p-5'>
-      <div className='inner'>
+    <div className='main container-fluid p-5 bg-warning d-flex justify-content-center align-items-center'>
+      <div className='inner '>
         <label htmlFor="heading" className="form-label">
-          <h1>ToDo App</h1>
+          <h1 className='text-white'>ToDo App</h1>
         </label>
         <div className='d-flex fom1'>
           <input
